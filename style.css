@@ -516,8 +516,6 @@ section {
 }
 
 
-
-
 /* Certifications Section */
 .certifications {
     background: var(--secondary-bg);
@@ -642,11 +640,7 @@ section {
     display: inline-block;
 }
 
-
 /* Interests Section */
-.interests {
-    background: var(--secondary-bg);
-}
 
 .interests-grid {
     display: grid;
@@ -1022,6 +1016,8 @@ section {
 
     .skills-grid,
     .projects-grid,
+    .certifications-grid,
+    .achievements-grid,
     .interests-grid {
         grid-template-columns: 1fr;
     }
